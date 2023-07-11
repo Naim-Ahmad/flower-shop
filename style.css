@@ -160,3 +160,20 @@ header {
   margin: auto;
   margin-bottom: 28px;
 }
+.latest-deal-sec {
+  margin-top: 124px;
+  background: url('images/latest-deals-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 250px;
+}
+.email-inp {
+  border: none;
+  padding: 22px;
+  border-radius: 8px;
+  margin-right: 1rem;
+  display: inline-block;
+  width: 700px;
+  margin-left: 3.5rem;
+  margin-top: 48px;
+}
