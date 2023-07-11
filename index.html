@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="header-container flex-between">
+    <!-- header section -->
+    <header class="bg-pink">
+        <div class="header-container section-center flex-between">
             <div class="header-content">
                 <h1 class="title-1">Let's make beautiful flowers a part of your life.</h1>
                 <p class="description">It is a long established fact that a reader will be distracted by the readable content of a
@@ -16,8 +17,67 @@
                     layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
                 <button class="btn">Shop Now</button>
             </div>
-            <img class="header-img" src="images/header-flower.png" alt="flower image">
+            <div class="header-flower">
+                <img class="header-img" src="images/header-flower.png" alt="flower image">
+            </div>
         </div>
     </header>
+    <main>
+        <!-- featured section -->
+        <section class="featured-sec section-center">
+            <h2 class="title-2">Our Featured Flowers</h2>
+            <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+            layout.</p>
+            <!-- flower container -->
+            <div class="featured-container flex-between">
+                <div class="featured-flower">
+                    <figure class="bg-pink">
+                        <img src="images/pngwing 6.png">
+                    </figure>
+                    <p class="flower-tree">Pink Flower Tree</p>
+                </div>
+                <div class="featured-flower">
+                   <figure class="bg-pest">
+                    <img src="images/pngwing 5.png">
+                   </figure>
+                    <p class="flower-tree">Pink Flower Tree</p>
+                </div>
+                <div class="featured-flower">
+                    <figure class="bg-gray">
+                        <img src="images/pngwing 7.png">
+                    </figure>
+                    <p class="flower-tree">Pink Flower Tree</p>
+                </div>
+            </div>
+            <!-- more feature container -->
+            <div class="more-features-container flex-between">
+                <div class="more-features-box">
+                    <img src="images/delivery-man.png" alt="delivery main">
+                    <p class="description">Same Day Delivery. Click & Collect.</p>
+                </div>
+                <div class="more-features-box">
+                    <img src="images/fresh-flower.png" alt="fresh flower">
+                    <p class="description">Fresh Flowers. Local Growers.</p>
+                </div>
+                <div class="more-features-box">
+                    <img src="images/support.png" alt="customer support">
+                    <p class="description">Same Day Delivery. Click & Collect.</p>
+                </div>
+            </div>
+        </section>
+        <section class="hot-deal bg-pink">
+            <div class="hot-deal-container">
+                <div class="hot-deal-content">
+                    <h2 class="title-2">Hot Deal ! Sale Up To 25% <span class="pink-text">Off</span></h2>
+                    <p class="description">
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+                        layout.
+                    </p>
+                    <button class="btn">Sign Up</button>
+                </div>
+                <img src="images/pngwing 8.png" class="hot-deal-img">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
